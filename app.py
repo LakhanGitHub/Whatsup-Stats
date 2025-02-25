@@ -179,4 +179,6 @@ if uploaded_file is not None:
             else:
                 st.write("No emojis were used.")
 
+tc1,tc2,tc3,tc4 = st.columns(4)
+tc4.markdown(f"<h7 style='color: black;'>📩Created by @Lakhan</h7>", unsafe_allow_html=True)
         
