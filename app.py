@@ -26,7 +26,7 @@ if uploaded_file is not None:
         num_message,words,num_media,links = helper.featch_states(selected_user,df)
         c1,c2,c3,c4 = st.columns(4)
         with c1:
-            c1.subheader('Total Messages')
+            c1.subheader('Total Chats')
             st.title(num_message)
             #st.markdown(f"<h1 style='color: black;'>📩 {num_message}</h1>", unsafe_allow_html=True)
         with c2:
