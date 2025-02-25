@@ -30,7 +30,7 @@ if uploaded_file is not None:
             st.title(num_message)
             #st.markdown(f"<h1 style='color: black;'>📩 {num_message}</h1>", unsafe_allow_html=True)
         with c2:
-            c2.subheader('Total Word')
+            c2.subheader('Total Words')
             st.title(words)
             #st.markdown(f"<h1 style='color: black;'>📄 {words}</h1>", unsafe_allow_html=True)
         with c3:
