@@ -112,7 +112,7 @@ if uploaded_file is not None:
         if selected_user == 'Overall':
             #st.header('Most Busy Persons')
             x,df_new = helper.most_busy_user(df)
-            fig, ax  = plt.subplots(figsize=(4,3))
+            fig, ax  = plt.subplots(figsize=(4,2))
 
             co1, co2 = st.columns(2)
 
